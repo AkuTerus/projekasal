@@ -1,9 +1,9 @@
 const toggler = document.querySelector('.toggler');
-const targets = ['.profile', '.profile-photo', '.about'];
 
+const targetClass = '.collapsible';
 const toggleTarget = (displayState) => {
-  targets.forEach((target) => {
-    document.querySelector(target).style.display = displayState;
+  document.querySelectorAll(targetClass).forEach((target) => {
+    target.style.display = displayState;
   });
 };
 
@@ -13,7 +13,7 @@ toggler.addEventListener('click', function (e) {
     toggleTarget('none');
     toggler.innerText = 'vv';
   } else {
-    toggleTarget('block');
+    toggleTarget('');
     toggler.innerText = '^^';
   }
   n++;
