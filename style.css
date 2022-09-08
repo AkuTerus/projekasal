@@ -28,16 +28,18 @@ body {
   display: flex;
   box-sizing: border-box;
   padding: 0.5rem 2rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-.card-0 {
+.card-body {
   background-color: rgb(42, 180, 255);
 }
 
-.collapsible i {
+.toggler {
+  display: block;
   text-align: center;
-  line-height: 1;
+  line-height: 1.5;
+  cursor: pointer;
 }
 
 .social {
@@ -50,14 +52,15 @@ body {
   justify-content: space-between;
 }
 .profile-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  line-height: 2;
   font-size: 1.25rem;
 }
 .profile-info p {
   /* border-bottom: 1px solid black; */
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .profile-photo {
   width: 150px;
