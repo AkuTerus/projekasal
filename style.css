@@ -1,12 +1,75 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
+* {
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+body {
   background-color: rgb(138, 214, 255);
+  max-width: 100vw;
+}
+
+.container {
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-part {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0.5rem 2rem;
+  border: 1px solid red;
+}
+
+.card-0 {
+  background-color: rgb(42, 180, 255);
+}
+
+.collapsible i {
+  text-align: center;
+  line-height: 1;
+}
+
+.social {
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  background: #fff;
+}
+
+.profile {
+  justify-content: space-between;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.profile-info p {
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 1rem;
+}
+.profile-photo {
+  width: 150px;
+  height: 150px;
+}
+
+.about {
+  flex-direction: column;
+}
+.about h3 {
+  text-align: center;
+}
+.about p {
+  text-align: center;
 }
