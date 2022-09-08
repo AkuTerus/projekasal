@@ -1,72 +1,12 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(138, 214, 255);
-}
-
-.main {
-  width: 500px;
-  height: 250px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  box-sizing: border-box;
-  background-color: rgb(42, 180, 255);
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.social {
-  position: absolute;
-  width: 500px;
-  height: 40px;
-  background-color: white;
-  margin-top: -25px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-.profile p {
-  line-height: 200%;
-  padding-top: 10px;
-  padding-left: 20px;
-  color: black;
-  font-variant: small-caps;
-  font-weight: bold;
-}
-
-img {
-  width: 3.5cm;
-  height: 3cm;
-  border: 2px solid white;
-  margin-left: 100px;
-  margin-top: 15px;
-  border-radius: 10%;
-}
-
-.about {
-  line-height: 0.8;
-  text-align: center;
-}
-
-.collapsible {
-  background-color: white;
-  position: absolute;
-  z-index: 1;
-  text-align: center;
-  width: 20px;
-  height: 20px;
-  margin-top: -44px;
-  cursor: pointer;
-  border: 1px solid white;
 }

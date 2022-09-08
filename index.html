@@ -4,28 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+    <script defer src="https://kit.fontawesome.com/4a6dcecaef.js" crossorigin="anonymous"></script>
+    <script defer src="script.js" crossorigin="anonymous"></script>
+
     <title>My Profile</title>
   </head>
 
   <body>
     <div class="main">
-      <button class="collapsible">^^^</button>
-      <div class="social"></div>
-      <div class="profile">
-        <p>
-          Nama : Diva Filemon Manik <br />
-          Jurusan : Teknik Informasi <br />
-          Umur : 19 Tahun
-        </p>
+      <div class="collapsible" data-toggle="card-0">
+        <i class="fa-solid fa-xl fa-arrow-up"></i>
       </div>
-      <img src="image/IMG_3250.JPG" alt="Photo" class="photo-profile" />
-      <div class="about">
-        <h3>About Me</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-          temporibus. Lorem ipsum dolor sit amet.
-        </p>
+      <div class="card" id="card-0">
+        <div class="card-part social"></div>
+        <div class="card-part profile">
+          <div class="profile-info">
+            <p>Nama : Diva Filemon Manik</p>
+            <p>Jurusan : Teknik Informasi</p>
+            <p>Umur : 19 Tahun</p>
+          </div>
+          <div class="profile-photo">
+            <img src="image/IMG_3250.JPG" alt="Photo" />
+          </div>
+        </div>
+        <div class="card-part about">
+          <h3>About Me</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, temporibus. Lorem ipsum
+            dolor sit amet.
+          </p>
+        </div>
       </div>
     </div>
   </body>
