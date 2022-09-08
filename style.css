@@ -59,7 +59,7 @@ img {
   text-align: center;
 }
 
-.collapsible {
+.toggler {
   background-color: white;
   position: absolute;
   z-index: 1;
